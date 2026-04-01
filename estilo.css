@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 html {
   font-size: 16px; /* garante consistência */
 }
@@ -5,7 +11,6 @@ html {
 body{
     background-color: #fcf2d1;
     background-image: url("Background.png");
-    margin: 0;
 }
 
 .titulo-logo{
