@@ -4,20 +4,20 @@ body{
     margin: 0;
 }
 
-.cabeca{
+.titulo-logo{
     display: flex;
+    margin: 0;
 }
 
 .icone-img{
-    margin-top: 35px;
-    margin-left: 140px;
-    width: 160px;
-
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 0;
 }
 
 aside{
-    width: 200px;
     text-align: center;
+    margin: 0;
 }
 
 header{
@@ -26,22 +26,19 @@ header{
 
 .titulo{
     color: #85e7ff;
-    text-align: center;
-    font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 70px;
     text-shadow: 2px 2px 0px #231f20;
+    margin: 0;
+    margin-top: 8%;
 }
 
 .linq{
-    margin-right: 20px;
-    margin-top: 5px;
+    margin: 1%;
 }
 
 .navega{
-    text-align: center;
-    margin-left: 160px;
-    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
 }
 
 a{
@@ -63,21 +60,18 @@ a:hover{
 .quad{
     width: 80%;
     border: 5px #231f20 solid;
-    border-radius: 67px;
-    padding-left: 20px;
-    padding-top: 50px;
+    border-radius: 8%;
+    padding: 2%;
     height: 100vh;
     background-color: #85e7ff;
-    margin-top: 50px;
+    margin-top: 5%;
+    
 }
 
 footer{
     background-color: #ff737d;
-    margin-top: 50px;
-    height: 40px;
 }
 
 .text{
-    font-size: 30px;
 }
 
