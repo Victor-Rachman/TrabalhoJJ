@@ -11,8 +11,8 @@ body{
 
 .icone-img{
     width: 8rem;
-    margin-top: 2rem;
-    margin-left: 0;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 aside{
@@ -22,6 +22,7 @@ aside{
 
 header{
     flex: 1;
+    text-align: center;
 }
 
 .titulo{
@@ -29,7 +30,7 @@ header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 0px #231f20;
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .linq{
