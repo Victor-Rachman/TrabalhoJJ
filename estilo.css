@@ -15,8 +15,8 @@ body{
 
 .icone-img{
     width: 19vh;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin-top: 2.6rem;
+    margin-left: 2.6rem;
 }
 
 aside{
@@ -65,7 +65,7 @@ a:hover{
 .quad{
     width: 80%;
     border: 5px #231f20 solid;
-    border-radius: 10%;
+    border-radius: 8%;
     padding: 2rem;
     height: 100vh;
     background-color: #85e7ff;
@@ -75,6 +75,8 @@ a:hover{
 
 footer{
     background-color: #ff737d;
+    height: 4vh;
+    margin-top: 5vh;
 }
 
 .text{
