@@ -14,7 +14,8 @@ html {
 
 body{
     background-color: #fcf2d1;
-    background-image: url("imgs/Background.png");
+    background-size:cover;
+    background-image: url("../imgs/Background.png");
 }
 
 .titulo-logo{
