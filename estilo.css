@@ -83,6 +83,10 @@ footer{
     background-color: #ff737d;
     height: 4rem;
     margin-top: 5vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .text{
