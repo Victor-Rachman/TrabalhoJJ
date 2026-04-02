@@ -50,7 +50,7 @@ header{
 
 .linq{
     margin: 1rem;
-    font-size: 2.7vw; /* Arrumar no windows */
+    font-size: 2vw; /* Arrumar no windows */
 }
 
 nav{
@@ -87,7 +87,7 @@ a:hover{
 
 footer{
     background-color: #ff737d;
-    height: 4rem;
+    height: 3rem;
     margin-top: 5vh;
     display: flex;
     text-align: center;
@@ -96,5 +96,7 @@ footer{
 }
 
 .text{
-    font-size: 2.7vw; /* Arrumar no windows */
+    font-size: 2vw; /* Arrumar no windows */
+    text-align: left;
+    text-indent: 1em;
 }
