@@ -4,6 +4,10 @@ html, body {
     padding: 0;
 }
 
+p{
+    margin: 0;
+}
+
 html {
   font-size: 16px; /* garante consistência */
 }
