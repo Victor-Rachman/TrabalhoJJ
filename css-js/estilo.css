@@ -21,10 +21,10 @@ body{
 .titulo-logo{
     display: flex;
     margin: 0;
-}
+}/**/
 
 .icone-img{
-    width: clamp(30px, 10vw, 120px);
+    width: clamp(29px, 10vw, 120px);
     margin-top: 2.6rem;
     margin-left: 2.6rem;
 }
