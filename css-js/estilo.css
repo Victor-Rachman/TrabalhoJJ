@@ -41,9 +41,9 @@ header{
 
 .titulo{
     color: #85e7ff;
-    font-size: 1px;
+    font-size: 3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 0px pink;
+    text-shadow: 2px 2px 0px #231f20;
     margin: 0;
     margin-top: 5rem;
 }
