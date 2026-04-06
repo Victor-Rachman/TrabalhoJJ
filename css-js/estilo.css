@@ -10,7 +10,7 @@ p{
 }
 
 html {
-  font-size: 16px; /* garante consistência */
+  font-size: 16px; 
 }
 
 body{
@@ -81,7 +81,7 @@ a:hover{
     border: 5px #231f20 solid;
     border-radius: 8%;
     padding: 2rem;
-    height: 100vh;
+    height: 60vh;
     background-color: #85e7ff;
     margin-top: 2rem;
     
@@ -89,7 +89,8 @@ a:hover{
 
 footer{
     background-color: #ff737d;
-    height: auto + 4px;
+    height: auto + 10px;
+    padding: 5px;
     margin-top: 5vh;
     display: flex;
     text-align: center;
@@ -98,17 +99,19 @@ footer{
 }
 
 .text{
-    font-size: 2vw; /* Arrumar no windows */
+    font-size: 2vw; 
     text-align: left;
 }
 
 @media (max-width: 768px){
     .titulo{
-        font-size: 1.5rem; /* menor no celular */
+        font-size: 1.5rem; 
         margin-top: 2rem;
     }
     .quad{
         border: 3px #231f20 solid;
+        padding: 1.5rem;
+        height: 50vh;
     }
     .icone-img{
         margin-left: 1rem;
