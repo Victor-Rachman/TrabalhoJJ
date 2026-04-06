@@ -41,7 +41,7 @@ header{
 
 .titulo{
     color: #85e7ff;
-    font-size: clamp(20px, 2vw, 80px);
+    font-size: clamp(20px, 4vw, 80px);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 0px #231f20;
     margin: 0;
