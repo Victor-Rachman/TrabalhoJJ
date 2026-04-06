@@ -87,7 +87,7 @@ a:hover{
 
 footer{
     background-color: #ff737d;
-    height: 3rem;
+    height: auto + 4px;
     margin-top: 5vh;
     display: flex;
     text-align: center;
