@@ -24,7 +24,7 @@ body{
 }/**/
 
 .icone-img{
-    width: clamp(29px, 10vw, 120px);
+    width: 20vh;
     margin-top: 2.6rem;
     margin-left: 2.6rem;
 }
