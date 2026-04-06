@@ -6,6 +6,7 @@ html, body {
 
 p{
     margin: 0;
+    white-space: pre-line;
 }
 
 html {
@@ -24,7 +25,8 @@ body{
 }/**/
 
 .icone-img{
-    width: 20vh;
+    width: 150px;
+    max-width: 20vw;
     margin-top: 2.6rem;
     margin-left: 2.6rem;
 }
@@ -98,5 +100,24 @@ footer{
 .text{
     font-size: 2vw; /* Arrumar no windows */
     text-align: left;
-    text-indent: 1em;
+}
+
+@media (max-width: 768px){
+    .titulo{
+        font-size: 1.5rem; /* menor no celular */
+        margin-top: 2rem;
+    }
+    .quad{
+        border: 3px #231f20 solid;
+    }
+    .icone-img{
+        margin-left: 1rem;
+    }
+    .linq{
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
 }
