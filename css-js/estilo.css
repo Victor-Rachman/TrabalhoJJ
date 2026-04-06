@@ -63,6 +63,7 @@ nav{
 a{
     color: #ff737d;
     text-shadow: 0.2px 0.2px 0 black;
+    text-decoration: none;
 }
 
 a:hover{
@@ -101,6 +102,10 @@ footer{
 .text{
     font-size: 2vw; 
     text-align: left;
+}
+
+h2{
+    text-align: center;
 }
 
 @media (max-width: 768px){
