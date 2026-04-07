@@ -19,16 +19,13 @@ body{
     background-image: url("../imgs/Background.png");
 }
 
-.titulo-logo{
-    display: flex;
-    margin: 0;
-}/**/
+h2{
+    text-align: center;
+    font-size: 2vw;
+}
 
-.icone-img{
-    width: 150px;
-    max-width: 20vw;
-    margin-top: 2.6rem;
-    margin-left: 2.6rem;
+h3{
+    font-size: 1.7vw;
 }
 
 aside{
@@ -39,6 +36,55 @@ aside{
 header{
     flex: 1;
     text-align: center;
+}
+
+nav{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: #ff737d;
+    height: auto + 10px;
+    padding: 5px;
+    margin-top: 5vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: #ff737d;
+    text-shadow: 0.2px 0.2px 0 black;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #f25165;
+}
+
+li{
+    font-size: 1.5vw;
+    margin: 0.5vw;
+}
+
+li:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.titulo-logo{
+    display: flex;
+    margin: 0;
+}
+
+.icone-img{
+    width: 150px;
+    max-width: 20vw;
+    margin-top: 2.6rem;
+    margin-left: 2.6rem;
 }
 
 .titulo{
@@ -53,22 +99,6 @@ header{
 .linq{
     margin: 1rem;
     font-size: 2vw; 
-}
-
-nav{
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
-
-a{
-    color: #ff737d;
-    text-shadow: 0.2px 0.2px 0 black;
-    text-decoration: none;
-}
-
-a:hover{
-    cursor: pointer;
-    color: #f25165;
 }
 
 .lateral{
@@ -91,13 +121,6 @@ a:hover{
 
 }
 
-@keyframes aparece {
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .quad-intro{
     width: 80%;
     border: 5px #231f20 solid;
@@ -111,41 +134,32 @@ a:hover{
     animation: aparece 0.6s ease forwards;
 }
 
-footer{
-    background-color: #ff737d;
-    height: auto + 10px;
-    padding: 5px;
-    margin-top: 5vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 .text {
     font-size: 2vw; 
     text-align: left;
 }
 
-li{
-    font-size: 1.5vw;
-    margin: 0.5vw;
-}
-li:hover{
-    transform: scale(1.03);
-    transition: 0.2s;
+@keyframes aparece {
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-h2{
-    text-align: center;
-    font-size: 2vw;
-}
-
-h3{
-    font-size: 1.7vw;
-}
 
 @media (max-width: 768px){
+    h2{
+        font-size: 2rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    li{
+        font-size: 1.2rem;
+    }
+
     .titulo{
         font-size: 1.5rem; 
         margin-top: 2rem;
@@ -169,14 +183,5 @@ h3{
     }
     .text{
         font-size: 1.2rem;
-    }
-    li{
-        font-size: 1.2rem;
-    }
-    h2{
-        font-size: 2rem;
-    }
-    h3{
-        font-size: 1.5rem;
     }
 }
