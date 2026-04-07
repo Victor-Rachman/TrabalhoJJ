@@ -137,12 +137,12 @@ h3{
     .quad-intro{
         border: 3px #231f20 solid;
         padding: 1.5rem;
-        height: 50vh;
+        height: 100vh;
     }
     .quad{
         border: 3px #231f20 solid;
         padding: 1.5rem;
-        height: auto;
+        height: 100vh;
     }
     .icone-img{
         margin-left: 1rem;
