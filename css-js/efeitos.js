@@ -13,7 +13,7 @@ if(!sessionStorage.getItem("rodou"))
         } else {
             clearInterval(intervalo);
         }
-    }, 15); //escreve introdução
+    }, 10); //escreve introdução
 
     sessionStorage.setItem("rodou", "true");
 }else{
