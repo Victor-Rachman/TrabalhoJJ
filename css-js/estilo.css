@@ -134,10 +134,15 @@ h3{
         font-size: 1.5rem; 
         margin-top: 2rem;
     }
-    .quad{
+    .quad-intro{
         border: 3px #231f20 solid;
         padding: 1.5rem;
         height: 50vh;
+    }
+    .quad{
+        border: 3px #231f20 solid;
+        padding: 1.5rem;
+        height: auto;
     }
     .icone-img{
         margin-left: 1rem;
