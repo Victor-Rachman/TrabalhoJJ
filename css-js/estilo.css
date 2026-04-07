@@ -76,6 +76,12 @@ li:hover{
     cursor: default;
 }
 
+li:not(:hover)
+{
+    transform: scale(1);
+    transition: 0.1s;
+}
+
 .titulo-logo{
     display: flex;
     margin: 0;
